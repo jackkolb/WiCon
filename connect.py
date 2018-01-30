@@ -65,7 +65,7 @@ class GridWindow(Gtk.Window):
         self.grid.attach(self.password_entry, 1, 4, 2, 1)
 
         self.show_password_button = Gtk.ToggleButton("Show")
-        self.show_password_button.connect("toggled", self.show_password_toggle, "open")
+        self.show_password_button.connect("toggled", self.show_password_toggle)
         self.grid.attach(self.show_password_button, 3, 4, 1, 1)
 
         # create "Connect" button, attach to grid container

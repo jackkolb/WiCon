@@ -5,6 +5,8 @@ In the current form, it is essentially a GUI wrapper for iw list, wpa_supplicant
 can be expanded to support networkmanager, wicd, and other command-line managers.
 
 To run, simply cd to the WiCon directory and run 'sudo python3 main.py'. The tool itself is pretty intuitive.
+To add WiCon as a terminal program, make am executable shell script containing 'sudo python3 /path/to/wicon/main.py'
+in your /usr/bin directory.
 
 The tool is GTK3-based, however outputs useful information to the terminal, which is great when things
 are not working.
